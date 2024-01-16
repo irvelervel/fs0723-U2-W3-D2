@@ -9,3 +9,22 @@
 
 // Entrambe queste tecnologie di memorizzazione condividono uno spazio totale di circa 5MB e memorizzano informazioni separate
 // a livello di dominio
+
+// nonostante queste memorie siano effettivamente spazi SEPARATI, i metodi per interagire con queste memorie sono gli stessi:
+// - setItem(chiave, valore) -> per salvare un dato
+// - getItem(chiave) -> per recuperare un valore
+// - removeItem(chiave) -> per rimuovere una coppia chiave/valore
+// - clear() -> per azzerare lo storage su quel dominio
+
+// N.B: ricordati di NON salvare dati particolarmente sensibili in questi motori di storage perchè sono completamente esposti
+// all'utente
+
+// qualche prova:
+// localStorage.clear() // azzera la memoria
+
+localStorage.setItem('michela', 'student')
+// localStorage.removeItem('michela')
+
+console.log(localStorage.getItem('michela'))
+
+// nota finale: ricordati che in localStorage e in sessionStorage puoi salvare SOLAMENTE STRINGHE!
