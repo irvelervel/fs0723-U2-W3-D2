@@ -1,0 +1,26 @@
+[
+    {
+        "firstName": "Stefano",
+        "lastName": "Casasola",
+        "age": 18,
+        "area": {
+            "country": "Italy"
+        },
+        "skills": [
+            "HTML",
+            "JS"
+        ]
+    },
+    {
+        "firstName": "Mario",
+        "lastName": "Bros",
+        "age": 50,
+        "area": {
+            "country": "Mushroom Kingdom"
+        },
+        "skills": [
+            "Jumping",
+            "Killing"
+        ]
+    }
+]
